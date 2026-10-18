@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.parquet
+*.jsonl
+.env
+*.pem
+*.key

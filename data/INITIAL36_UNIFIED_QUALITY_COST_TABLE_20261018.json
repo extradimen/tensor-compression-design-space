@@ -1,0 +1,1014 @@
+{
+  "scope": "initial36 single-source development endpoints; do not pool with Step5 nominal seeds",
+  "denominator": 36,
+  "rows": [
+    {
+      "cell_id": "matrix__O-W__uniform__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 16.377421021383725,
+        "math": 14.49524053085168
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296684,
+        "decode_runtime_seconds": 1.6408280869945884,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 125.6360519479661,
+        "build_gpu_seconds": 15.827894588990603,
+        "quality_evaluation_seconds": 1.049830774019938,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-W__uniform__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 6.165802937586636,
+        "math": 3.8429876675979657
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296688,
+        "decode_runtime_seconds": 1.5967424180125818,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 124.10690461557657,
+        "build_gpu_seconds": 30.626985698007047,
+        "quality_evaluation_seconds": 1.0173118700040504,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-W__exchange2__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 16.60402007081193,
+        "math": 14.336776055622948
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296688,
+        "decode_runtime_seconds": 1.5825820720056072,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 124.96507171663188,
+        "build_gpu_seconds": 15.705072833021404,
+        "quality_evaluation_seconds": 1.1096013330097776,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-W__exchange2__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 6.167339446882135,
+        "math": 3.8839161070952226
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296692,
+        "decode_runtime_seconds": 1.5980064980103634,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 127.62059801982411,
+        "build_gpu_seconds": 29.95285583799705,
+        "quality_evaluation_seconds": 1.0490000320132822,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-W__exchange4__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 16.460858349386417,
+        "math": 14.44459683980754
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296688,
+        "decode_runtime_seconds": 1.5840212409966625,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 126.61504353769216,
+        "build_gpu_seconds": 15.620335036015604,
+        "quality_evaluation_seconds": 1.0353254659858067,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-W__exchange4__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 6.194118711268754,
+        "math": 3.8419007986104825
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296692,
+        "decode_runtime_seconds": 1.5538436979986727,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 125.09000097992885,
+        "build_gpu_seconds": 29.988275254989276,
+        "quality_evaluation_seconds": 1.0206319830031134,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-D__uniform__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 5.630850297364237,
+        "math": 2.973310114748923
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296684,
+        "decode_runtime_seconds": 1.6358568319992628,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 129.18803158608102,
+        "build_gpu_seconds": 15.637630024983082,
+        "quality_evaluation_seconds": 1.0422435869986657,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-D__uniform__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.380401392350069,
+        "math": 2.6618208783894906
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296688,
+        "decode_runtime_seconds": 1.6076502710056957,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 121.93788197615227,
+        "build_gpu_seconds": 30.7070304180088,
+        "quality_evaluation_seconds": 1.0567551440035459,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-D__exchange2__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 5.6059503822799455,
+        "math": 2.9619399181614976
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296688,
+        "decode_runtime_seconds": 1.5960817949962802,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 125.3757432341616,
+        "build_gpu_seconds": 15.984469081973657,
+        "quality_evaluation_seconds": 1.0402068239927758,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-D__exchange2__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.365856631005891,
+        "math": 2.694228206559377
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296692,
+        "decode_runtime_seconds": 1.5892307010071818,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 124.65588404242537,
+        "build_gpu_seconds": 30.15167425898835,
+        "quality_evaluation_seconds": 1.0410235969757196,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-D__exchange4__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 5.595125182189743,
+        "math": 2.9893528601984207
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296688,
+        "decode_runtime_seconds": 1.5585276470228564,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 124.22124173455117,
+        "build_gpu_seconds": 15.972482028009836,
+        "quality_evaluation_seconds": 1.0186567560012918,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-D__exchange4__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.354035399275828,
+        "math": 2.652489454049132
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296692,
+        "decode_runtime_seconds": 1.6366964799817652,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 125.47219970552749,
+        "build_gpu_seconds": 30.553925162006635,
+        "quality_evaluation_seconds": 1.0152726820087992,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-C__uniform__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 4.460759331491051,
+        "math": 1.5282489132724613
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296684,
+        "decode_runtime_seconds": 1.5580671669740696,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 120.9403243285004,
+        "build_gpu_seconds": 14.11693237198051,
+        "quality_evaluation_seconds": 1.0165424069855362,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-C__uniform__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 4.857142697886089,
+        "math": 2.0084821186087773
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296688,
+        "decode_runtime_seconds": 1.580769157008035,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 121.38933617077197,
+        "build_gpu_seconds": 28.641076771978987,
+        "quality_evaluation_seconds": 1.0539385699958075,
+        "preparation_peak_cuda_bytes": 1134361600
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-C__exchange2__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 4.456994302429876,
+        "math": 1.5199438708774275
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296688,
+        "decode_runtime_seconds": 1.5871130460000131,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 124.63910738827063,
+        "build_gpu_seconds": 13.965472404001048,
+        "quality_evaluation_seconds": 1.0275132739916444,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-C__exchange2__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 4.852521902583272,
+        "math": 2.0150169882363635
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296692,
+        "decode_runtime_seconds": 1.635513502988033,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 128.9947225921093,
+        "build_gpu_seconds": 29.267268265015446,
+        "quality_evaluation_seconds": 1.0877482360228896,
+        "preparation_peak_cuda_bytes": 1134496768
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-C__exchange4__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 4.445472592865807,
+        "math": 1.5172332345219182
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296688,
+        "decode_runtime_seconds": 1.5989455630187877,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 121.65775937678254,
+        "build_gpu_seconds": 14.003970741992816,
+        "quality_evaluation_seconds": 1.025518934999127,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "matrix__O-C__exchange4__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 4.845105593607306,
+        "math": 2.008119110897178
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072296692,
+        "decode_runtime_seconds": 1.5618002690025605,
+        "peak_memory_bytes": 1207421440,
+        "energy_joules": 124.62417725572088,
+        "build_gpu_seconds": 28.29753453101148,
+        "quality_evaluation_seconds": 1.0420326080056839,
+        "preparation_peak_cuda_bytes": 1134959616
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-W__uniform__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 13.99646426087023,
+        "math": 12.418390715338631
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072303055,
+        "decode_runtime_seconds": 2.2290731930115726,
+        "peak_memory_bytes": 1220541952,
+        "energy_joules": 200.77602661877083,
+        "build_gpu_seconds": 14.015463018004084,
+        "quality_evaluation_seconds": 2.375391526002204,
+        "preparation_peak_cuda_bytes": 1124598272
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-W__uniform__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.567696269633174,
+        "math": 2.8253198699538613
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072303059,
+        "decode_runtime_seconds": 2.245809784013545,
+        "peak_memory_bytes": 1220541952,
+        "energy_joules": 219.24011278598618,
+        "build_gpu_seconds": 83.28001183699234,
+        "quality_evaluation_seconds": 2.3812613089976367,
+        "preparation_peak_cuda_bytes": 1124598272
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-W__exchange2__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 13.950310694028254,
+        "math": 13.495064639271618
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072319443,
+        "decode_runtime_seconds": 2.2941424650198314,
+        "peak_memory_bytes": 1222686208,
+        "energy_joules": 200.40983636164913,
+        "build_gpu_seconds": 14.00927864399273,
+        "quality_evaluation_seconds": 2.428170636994764,
+        "preparation_peak_cuda_bytes": 1127266816
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-W__exchange2__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.557243053538303,
+        "math": 2.8348910500064877
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072319447,
+        "decode_runtime_seconds": 2.2364923449931666,
+        "peak_memory_bytes": 1222686208,
+        "energy_joules": 208.42119257692525,
+        "build_gpu_seconds": 79.07502464400022,
+        "quality_evaluation_seconds": 2.3806055299937725,
+        "preparation_peak_cuda_bytes": 1127266816
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-W__exchange4__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 14.428080041814457,
+        "math": 14.329442289079097
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072335827,
+        "decode_runtime_seconds": 2.2286024969944265,
+        "peak_memory_bytes": 1222687232,
+        "energy_joules": 197.65023196467962,
+        "build_gpu_seconds": 14.117215722013498,
+        "quality_evaluation_seconds": 2.3887962180015165,
+        "preparation_peak_cuda_bytes": 1127267840
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-W__exchange4__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.53761875777173,
+        "math": 2.8565587426484345
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072335831,
+        "decode_runtime_seconds": 2.2306868029991165,
+        "peak_memory_bytes": 1222687232,
+        "energy_joules": 200.34231101627978,
+        "build_gpu_seconds": 80.9151224429952,
+        "quality_evaluation_seconds": 2.4022247690008953,
+        "preparation_peak_cuda_bytes": 1127267840
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-D__uniform__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 8.915297615862483,
+        "math": 7.250960802746445
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072303055,
+        "decode_runtime_seconds": 2.201750968990382,
+        "peak_memory_bytes": 1220541952,
+        "energy_joules": 182.83309315743335,
+        "build_gpu_seconds": 13.921170533983968,
+        "quality_evaluation_seconds": 2.4072519350156654,
+        "preparation_peak_cuda_bytes": 1124598272
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-D__uniform__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.533824067137557,
+        "math": 2.678905087762378
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072303059,
+        "decode_runtime_seconds": 2.2521751190070063,
+        "peak_memory_bytes": 1220541952,
+        "energy_joules": 212.04457773373085,
+        "build_gpu_seconds": 79.4846138189896,
+        "quality_evaluation_seconds": 2.3787818769924343,
+        "preparation_peak_cuda_bytes": 1124598272
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-D__exchange2__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 8.80475096382196,
+        "math": 7.269898616102682
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072319443,
+        "decode_runtime_seconds": 2.2365083180193324,
+        "peak_memory_bytes": 1222686208,
+        "energy_joules": 198.10448477891504,
+        "build_gpu_seconds": 14.276836981996894,
+        "quality_evaluation_seconds": 2.389705834997585,
+        "preparation_peak_cuda_bytes": 1127266816
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-D__exchange2__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.529052893631768,
+        "math": 2.6717545976045742
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072319447,
+        "decode_runtime_seconds": 2.2290934990160167,
+        "peak_memory_bytes": 1222686208,
+        "energy_joules": 198.3450554534764,
+        "build_gpu_seconds": 81.17209048499353,
+        "quality_evaluation_seconds": 2.3703898999956436,
+        "preparation_peak_cuda_bytes": 1127266816
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-D__exchange4__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 8.863618396577381,
+        "math": 7.197760554343496
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072335827,
+        "decode_runtime_seconds": 2.252816006017383,
+        "peak_memory_bytes": 1222687232,
+        "energy_joules": 202.97835034162966,
+        "build_gpu_seconds": 14.049592041992582,
+        "quality_evaluation_seconds": 2.430442549986765,
+        "preparation_peak_cuda_bytes": 1127267840
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-D__exchange4__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.493802403439436,
+        "math": 2.6345031137123858
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072335831,
+        "decode_runtime_seconds": 2.2496684349898715,
+        "peak_memory_bytes": 1222687232,
+        "energy_joules": 203.35823911868263,
+        "build_gpu_seconds": 79.48722413598443,
+        "quality_evaluation_seconds": 2.40897237797617,
+        "preparation_peak_cuda_bytes": 1127267840
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-C__uniform__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 5.658451884071265,
+        "math": 2.7084175955609218
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072303055,
+        "decode_runtime_seconds": 2.2084496459865477,
+        "peak_memory_bytes": 1220541952,
+        "energy_joules": 202.16897818445926,
+        "build_gpu_seconds": 79.67309929299518,
+        "quality_evaluation_seconds": 2.3872729349823203,
+        "preparation_peak_cuda_bytes": 1124598272
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-C__uniform__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.321259679626346,
+        "math": 2.491262265732501
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072303059,
+        "decode_runtime_seconds": 2.3213766859844327,
+        "peak_memory_bytes": 1220541952,
+        "energy_joules": 216.60809387993896,
+        "build_gpu_seconds": 147.6705633070087,
+        "quality_evaluation_seconds": 2.501086995995138,
+        "preparation_peak_cuda_bytes": 1124598272
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-C__exchange2__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 5.6301216976516635,
+        "math": 2.718013134275269
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072319443,
+        "decode_runtime_seconds": 2.1854239240055904,
+        "peak_memory_bytes": 1222686208,
+        "energy_joules": 203.51976810159098,
+        "build_gpu_seconds": 80.09112395098782,
+        "quality_evaluation_seconds": 2.3738774550147355,
+        "preparation_peak_cuda_bytes": 1127266816
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-C__exchange2__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.304533936661672,
+        "math": 2.50903450563268
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072319447,
+        "decode_runtime_seconds": 2.217705227987608,
+        "peak_memory_bytes": 1222686208,
+        "energy_joules": 208.2984729202576,
+        "build_gpu_seconds": 145.12569046398858,
+        "quality_evaluation_seconds": 2.393206609005574,
+        "preparation_peak_cuda_bytes": 1127266816
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-C__exchange4__none",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "nll": {
+        "text": 5.598141505371412,
+        "math": 2.7509068282426856
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072335827,
+        "decode_runtime_seconds": 2.203489047999028,
+        "peak_memory_bytes": 1222687232,
+        "energy_joules": 199.52668161693046,
+        "build_gpu_seconds": 79.3550284219964,
+        "quality_evaluation_seconds": 2.3990301819867454,
+        "preparation_peak_cuda_bytes": 1127244800
+      },
+      "source": "outputs/a100full-summary.json"
+    },
+    {
+      "cell_id": "mpo__O-C__exchange4__output",
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "nll": {
+        "text": 5.282444425758317,
+        "math": 2.504308188546344
+      },
+      "cost": {
+        "actual_deployed_bytes": 1072335831,
+        "decode_runtime_seconds": 2.191649182001129,
+        "peak_memory_bytes": 1222687232,
+        "energy_joules": 224.8937454401591,
+        "build_gpu_seconds": 146.15382101899013,
+        "quality_evaluation_seconds": 2.422178620006889,
+        "preparation_peak_cuda_bytes": 1127244800
+      },
+      "source": "outputs/a100full-summary.json"
+    }
+  ]
+}

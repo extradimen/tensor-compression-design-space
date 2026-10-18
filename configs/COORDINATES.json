@@ -1,0 +1,114 @@
+{
+  "coordinates": {
+    "C1": [
+      "S-D",
+      "S-U",
+      "S-QV",
+      "S-Custom"
+    ],
+    "C2": [
+      "F-Matrix",
+      "F-MPO",
+      "F-Tucker"
+    ],
+    "C3": [
+      "L-Native",
+      "L-Base",
+      "L-Alt",
+      "L-Semantic"
+    ],
+    "C4": [
+      "H-None",
+      "H-Head",
+      "H-Expert",
+      "H-Layer"
+    ],
+    "C5": [
+      "R-U",
+      "R-N"
+    ],
+    "C6": [
+      "B-Identity",
+      "B-Fixed",
+      "B-Learned"
+    ],
+    "C7": [
+      "O-W",
+      "O-D",
+      "O-C",
+      "O-S"
+    ],
+    "C8": [
+      "T-None",
+      "T-Output",
+      "T-KL",
+      "T-Task"
+    ],
+    "C9": [
+      "U-None",
+      "U-Factors",
+      "U-Extended"
+    ]
+  },
+  "coordinate_meanings_verbatim": {
+    "C1": {
+      "name": "作用范围",
+      "definition": "哪些原始权重或子块被分解，其余原样保留",
+      "values_and_meanings": "S-D：各层down_proj；S-U：各层up_proj；S-QV：各层Q和V；S-Custom：明确列出的其他算子/子块集合"
+    },
+    "C2": {
+      "name": "分解结构",
+      "definition": "用什么因子连接结构表示C1中的权重",
+      "values_and_meanings": "F-Matrix：双矩阵低秩；F-MPO：MPO链；F-Tucker：Tucker；其他结构以后明确新增"
+    },
+    "C3": {
+      "name": "索引组织",
+      "definition": "原权重如何拆维、排列、组织成分解对象",
+      "values_and_meanings": "L-Native：原二维索引；L-Base：预登记的基本张量布局；L-Alt：替代张量布局；L-Semantic：按head/expert等语义组织"
+    },
+    "C4": {
+      "name": "参数共享",
+      "definition": "哪些不同位置共用同一份数值因子",
+      "values_and_meanings": "H-None：不新增共享；H-Head：跨head共享；H-Expert：跨expert共享；H-Layer：跨层共享"
+    },
+    "C5": {
+      "name": "容量配置",
+      "definition": "各因子、各位置的具体秩或连接宽度",
+      "values_and_meanings": "R-U：按统一目标压缩比例得到的容量向量；R-N：非均匀容量向量。两者最终都必须记录全部整数秩"
+    },
+    "C6": {
+      "name": "独立基底变换",
+      "definition": "额外选择、而非由误差目标唯一决定的基底变换",
+      "values_and_meanings": "B-Identity：无额外变换；B-Fixed：指定固定变换；B-Learned：学习得到的变换"
+    },
+    "C7": {
+      "name": "初次构建目标",
+      "definition": "第一次求分解时优化什么误差",
+      "values_and_meanings": "O-W：普通权重重构；O-D：输入对角加权重构；O-C：完整输入二阶矩下的输出重构；O-S：明确公式的任务敏感度加权重构"
+    },
+    "C8": {
+      "name": "修复目标",
+      "definition": "初次分解之后，继续优化什么",
+      "values_and_meanings": "T-None：不修复；T-Output：局部输出匹配；T-KL：教师预测KL蒸馏；T-Task：任务损失"
+    },
+    "C9": {
+      "name": "修复参数范围",
+      "definition": "修复时允许更新哪些参数",
+      "values_and_meanings": "U-None：不更新；U-Factors：仅分解因子；U-Extended：分解因子加明确列出的其他参数"
+    }
+  },
+  "legal_dependencies": [
+    "T-None requires U-None",
+    "sharing requires explicit groups and compatible shape/semantics",
+    "layout must match representation and selected operator dimensions",
+    "Tucker requires independent tensorization and all axis ranks",
+    "objective-induced scale/whitening is not a second C6 freedom",
+    "U-Extended requires a named extra-parameter list",
+    "Any repair T-Output/T-KL/T-Task requires U-Factors or U-Extended",
+    "C2 determines C3 and C5: matrix ranks, MPO connection widths, Tucker all axis ranks",
+    "L-Base/L-Alt require explicit dimension splits and permutations; sharing requires explicit groups",
+    "C6 is an extra choice, not uniquely determined by the objective",
+    "Basis transformations fully absorbable into factors with no material function/constraint difference are not searched twice"
+  ],
+  "mathematically_independent_basis": false
+}

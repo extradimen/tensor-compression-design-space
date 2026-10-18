@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "project_id": "bac14391-c670-45aa-891f-2a0aab49abc7",
+  "generated_at_utc": "2026-10-17T21:37:23.316892+00:00",
+  "input": "outputs/STEP5_P85_FULL36_THREE_SEED_QUALITY_MATRIX_20261018.json",
+  "input_sha256": "b805ae9f4f954fc40aee503625e042b60f7efe6b6b9243dee40ff6400987b5ca",
+  "cells": 36,
+  "nominal_seed_bindings": 108,
+  "exactly_identical_both_domain_nll_cells": 12,
+  "varying_both_domain_nll_cells": 24,
+  "by_objective": {
+    "O-W": {
+      "identical": 4,
+      "varying": 8
+    },
+    "O-D": {
+      "identical": 4,
+      "varying": 8
+    },
+    "O-C": {
+      "identical": 4,
+      "varying": 8
+    }
+  },
+  "cell_audit": [
+    {
+      "cell_id": "step5-00",
+      "objective": "O-W",
+      "layout": "semantic",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-01",
+      "objective": "O-W",
+      "layout": "semantic",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-02",
+      "objective": "O-W",
+      "layout": "semantic",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-03",
+      "objective": "O-W",
+      "layout": "semantic",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-04",
+      "objective": "O-W",
+      "layout": "semantic",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-05",
+      "objective": "O-W",
+      "layout": "semantic",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-06",
+      "objective": "O-D",
+      "layout": "semantic",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-07",
+      "objective": "O-D",
+      "layout": "semantic",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-08",
+      "objective": "O-D",
+      "layout": "semantic",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-09",
+      "objective": "O-D",
+      "layout": "semantic",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-10",
+      "objective": "O-D",
+      "layout": "semantic",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-11",
+      "objective": "O-D",
+      "layout": "semantic",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-12",
+      "objective": "O-C",
+      "layout": "semantic",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-13",
+      "objective": "O-C",
+      "layout": "semantic",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-14",
+      "objective": "O-C",
+      "layout": "semantic",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-15",
+      "objective": "O-C",
+      "layout": "semantic",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-16",
+      "objective": "O-C",
+      "layout": "semantic",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-17",
+      "objective": "O-C",
+      "layout": "semantic",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-18",
+      "objective": "O-W",
+      "layout": "alternative",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-19",
+      "objective": "O-W",
+      "layout": "alternative",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-20",
+      "objective": "O-W",
+      "layout": "alternative",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-21",
+      "objective": "O-W",
+      "layout": "alternative",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-22",
+      "objective": "O-W",
+      "layout": "alternative",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-23",
+      "objective": "O-W",
+      "layout": "alternative",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-24",
+      "objective": "O-D",
+      "layout": "alternative",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-25",
+      "objective": "O-D",
+      "layout": "alternative",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-26",
+      "objective": "O-D",
+      "layout": "alternative",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-27",
+      "objective": "O-D",
+      "layout": "alternative",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-28",
+      "objective": "O-D",
+      "layout": "alternative",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-29",
+      "objective": "O-D",
+      "layout": "alternative",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-30",
+      "objective": "O-C",
+      "layout": "alternative",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-31",
+      "objective": "O-C",
+      "layout": "alternative",
+      "repair": "none",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 1,
+      "distinct_text_nll": 1,
+      "distinct_math_nll": 1,
+      "all_three_nll_vectors_identical": true
+    },
+    {
+      "cell_id": "step5-32",
+      "objective": "O-C",
+      "layout": "alternative",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-33",
+      "objective": "O-C",
+      "layout": "alternative",
+      "repair": "task",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-34",
+      "objective": "O-C",
+      "layout": "alternative",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    },
+    {
+      "cell_id": "step5-35",
+      "objective": "O-C",
+      "layout": "alternative",
+      "repair": "kl",
+      "nominal_seeds": [
+        1103,
+        1104,
+        1105
+      ],
+      "distinct_joint_nll_vectors": 3,
+      "distinct_text_nll": 3,
+      "distinct_math_nll": 3,
+      "all_three_nll_vectors_identical": false
+    }
+  ],
+  "interpretation": [
+    "Distinct seed labels and independent run receipts verify execution identity, not independent quality information.",
+    "The 12 byte-identical quality patterns are deterministic repeats on fixed data; do not count them as three independent uncertainty samples.",
+    "The 24 varying cells demonstrate numerical seed sensitivity, but fixed evaluation data and possibly shared calibration/fit records limit inference; no significance, equivalence, generalization or transfer test follows from three labels.",
+    "Paired layout directions are observed descriptive signs only. Formal candidate selection and statistical analysis must be frozen before opening held-out Independent160/GSM test."
+  ],
+  "formal_test_opened": false,
+  "new_gpu_hours": 0
+}

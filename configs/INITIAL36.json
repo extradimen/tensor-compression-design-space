@@ -1,0 +1,3607 @@
+{
+  "scope": "Initial finite batch only; not whole research space or optimal rank allocation",
+  "design_units": 24,
+  "endpoints": [
+    {
+      "point_id": "matrix__O-W__uniform__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-W__uniform__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-W__exchange2__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-W__exchange2__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-W__exchange4__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        222,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-W__exchange4__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        222,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-D__uniform__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-D__uniform__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-D__exchange2__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-D__exchange2__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-D__exchange4__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        222,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-D__exchange4__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        222,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-C__uniform__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-C__uniform__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-C__exchange2__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-C__exchange2__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-C__exchange4__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        222,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "matrix__O-C__exchange4__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-Matrix",
+        "C3": "L-Native",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        266,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        244,
+        222,
+        244,
+        244,
+        244,
+        244,
+        244,
+        222,
+        222,
+        244,
+        244,
+        244,
+        244,
+        266,
+        244,
+        266,
+        244,
+        244,
+        244,
+        244,
+        266
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "rows": 1024,
+        "columns": 3072
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-W__uniform__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-W__uniform__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-W__exchange2__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-W__exchange2__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-W__exchange4__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-W__exchange4__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-W",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-D__uniform__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-D__uniform__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-D__exchange2__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-D__exchange2__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-D__exchange4__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-D__exchange4__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-D",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-C__uniform__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-C__uniform__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-U",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "uniform",
+      "layer_rank_vector": [
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-C__exchange2__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-C__exchange2__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange2",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-C__exchange4__none",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-None",
+        "C9": "U-None"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    },
+    {
+      "point_id": "mpo__O-C__exchange4__output",
+      "status": "NOT_RUN",
+      "seed": 1103,
+      "whole_byte_cap": 1072922445,
+      "coordinates": {
+        "C1": "S-D",
+        "C2": "F-MPO",
+        "C3": "L-Base",
+        "C4": "H-None",
+        "C5": "R-N",
+        "C6": "B-Identity",
+        "C7": "O-C",
+        "C8": "T-Output",
+        "C9": "U-Factors"
+      },
+      "profile": "exchange4",
+      "layer_rank_vector": [
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          91,
+          91
+        ]
+      ],
+      "layer_index_base": 0,
+      "layout": {
+        "output_modes": [
+          8,
+          8,
+          16
+        ],
+        "input_modes": [
+          12,
+          16,
+          16
+        ]
+      },
+      "formula_reference": "02_METHODS_AND_MEASUREMENTS.md"
+    }
+  ],
+  "historical_selection_disclosure": "These fixed exchange vectors are inherited design choices, not a newly blind search. No prior measurements are supplied."
+}

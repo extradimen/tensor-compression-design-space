@@ -1,0 +1,530 @@
+[
+  {
+    "key": "kolda2009j01",
+    "title": "Tensor Decompositions and Applications",
+    "authors": [
+      "Tamara G. Kolda",
+      "Brett W. Bader"
+    ],
+    "year": 2009,
+    "venue": "SIAM Review",
+    "url": "https://doi.org/10.1137/07070111x",
+    "doi": "10.1137/07070111x",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "oseledets2011j02",
+    "title": "Tensor-Train Decomposition",
+    "authors": [
+      "Ivan Valer'evich Oseledets"
+    ],
+    "year": 2011,
+    "venue": "SIAM Journal on Scientific Computing",
+    "url": "https://doi.org/10.1137/090752286",
+    "doi": "10.1137/090752286",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "cichocki2016j03",
+    "title": "Tensor Networks for Dimensionality Reduction and Large-scale Optimization: Part 1 Low-Rank Tensor Decompositions",
+    "authors": [
+      "Andrzej S Cichocki",
+      "Namgil Lee",
+      "Ivan Valer'evich Oseledets",
+      "Anh Huy Phan",
+      "Qibin Zhao",
+      "Danilo P. Mandic"
+    ],
+    "year": 2016,
+    "venue": "Foundations and Trends® in Machine Learning",
+    "url": "https://doi.org/10.1561/2200000059",
+    "doi": "10.1561/2200000059",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "sidiropoulos2017j04",
+    "title": "Tensor Decomposition for Signal Processing and Machine Learning",
+    "authors": [
+      "Nicholas D. Sidiropoulos",
+      "Lieven De Lathauwer",
+      "Xiao Fu",
+      "Kejun Huang",
+      "Evangelos E. Papalexakis",
+      "Christos Faloutsos"
+    ],
+    "year": 2017,
+    "venue": "IEEE Transactions on Signal Processing",
+    "url": "https://doi.org/10.1109/tsp.2017.2690524",
+    "doi": "10.1109/tsp.2017.2690524",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "choudhary2020j05",
+    "title": "A comprehensive survey on model compression and acceleration",
+    "authors": [
+      "Tejalal Choudhary",
+      "Vipul Kumar Mishra",
+      "Anurag Goswami",
+      "S. Jagannathan"
+    ],
+    "year": 2020,
+    "venue": "Artificial Intelligence Review",
+    "url": "https://doi.org/10.1007/s10462-020-09816-7",
+    "doi": "10.1007/s10462-020-09816-7",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "sun2020j06",
+    "title": "Deep Convolutional Neural Network Compression via Coupled Tensor Decomposition",
+    "authors": [
+      "Weize Sun",
+      "Shaowu Chen",
+      "Lei Huang",
+      "Hing Cheung So",
+      "Min Xie"
+    ],
+    "year": 2020,
+    "venue": "IEEE Journal of Selected Topics in Signal Processing",
+    "url": "https://doi.org/10.1109/jstsp.2020.3038227",
+    "doi": "10.1109/jstsp.2020.3038227",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "wiedemann2020j07",
+    "title": "DeepCABAC: A Universal Compression Algorithm for Deep Neural Networks",
+    "authors": [
+      "Simon Wiedemann",
+      "Heiner Kirchhoffer",
+      "Stefan Matlage",
+      "Paul Haase",
+      "Arturo Marbán",
+      "Talmaj Marinč",
+      "David Neumann",
+      "Tung Lam Nguyen",
+      "Heiko Schwarz",
+      "Thomas Wiegand",
+      "Detlev Marpe",
+      "Wojciech Samek"
+    ],
+    "year": 2020,
+    "venue": "IEEE Journal of Selected Topics in Signal Processing",
+    "url": "https://doi.org/10.1109/jstsp.2020.2969554",
+    "doi": "10.1109/jstsp.2020.2969554",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "wu2020j08",
+    "title": "Hybrid tensor decomposition in neural network compression",
+    "authors": [
+      "Bijiao Wu",
+      "Dingheng Wang",
+      "Guangshe Zhao",
+      "Lei Deng",
+      "Guoqi Li"
+    ],
+    "year": 2020,
+    "venue": "Neural Networks",
+    "url": "https://doi.org/10.1016/j.neunet.2020.09.006",
+    "doi": "10.1016/j.neunet.2020.09.006",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "deng2020j09",
+    "title": "Model Compression and Hardware Acceleration for Neural Networks: A Comprehensive Survey",
+    "authors": [
+      "Lei Deng",
+      "Guoqi Li",
+      "Song Han",
+      "Luping Shi",
+      "Yuan Xie"
+    ],
+    "year": 2020,
+    "venue": "Proceedings of the IEEE",
+    "url": "https://doi.org/10.1109/jproc.2020.2976475",
+    "doi": "10.1109/jproc.2020.2976475",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "hawkins2021j10",
+    "title": "Bayesian tensorized neural networks with automatic rank selection",
+    "authors": [
+      "Cole Hawkins",
+      "Zheng Zhang"
+    ],
+    "year": 2021,
+    "venue": "Neurocomputing",
+    "url": "https://doi.org/10.1016/j.neucom.2021.04.117",
+    "doi": "10.1016/j.neucom.2021.04.117",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "wang2021j11",
+    "title": "Nonlinear tensor train format for deep neural network compression",
+    "authors": [
+      "Dingheng Wang",
+      "Guangshe Zhao",
+      "Hengnu Chen",
+      "Zhexian Liu",
+      "Lei Deng",
+      "Guoqi Li"
+    ],
+    "year": 2021,
+    "venue": "Neural Networks",
+    "url": "https://doi.org/10.1016/j.neunet.2021.08.028",
+    "doi": "10.1016/j.neunet.2021.08.028",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "kirchhoffer2021j12",
+    "title": "Overview of the Neural Network Compression and Representation (NNR) Standard",
+    "authors": [
+      "Heiner Kirchhoffer",
+      "Paul Haase",
+      "Wojciech Samek",
+      "Karsten Müller",
+      "Hamed R. Tavakoli",
+      "Francesco Cricri",
+      "Emre Aksu",
+      "Miska M. Hannuksela",
+      "Wei Jiang",
+      "Wei Wang",
+      "Shan  Ting Liu",
+      "Swayambhoo Jain",
+      "Shahab Hamidi-Rad",
+      "Fabien Racapé",
+      "Werner Bailer A"
+    ],
+    "year": 2021,
+    "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "url": "https://doi.org/10.1109/tcsvt.2021.3095970",
+    "doi": "10.1109/tcsvt.2021.3095970",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "zhang2022j13",
+    "title": "CMD: controllable matrix decomposition with global optimization for deep neural network compression",
+    "authors": [
+      "Haonan Zhang",
+      "Longjun Liu",
+      "Hengyi Zhou",
+      "Hongbin Sun",
+      "Nanning Zheng"
+    ],
+    "year": 2022,
+    "venue": "Machine Learning",
+    "url": "https://doi.org/10.1007/s10994-021-06077-5",
+    "doi": "10.1007/s10994-021-06077-5",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "liu2022j14",
+    "title": "Deep neural network compression by Tucker decomposition with nonlinear response",
+    "authors": [
+      "Ye Liu",
+      "Michael K. Ng"
+    ],
+    "year": 2022,
+    "venue": "Knowledge-Based Systems",
+    "url": "https://doi.org/10.1016/j.knosys.2022.108171",
+    "doi": "10.1016/j.knosys.2022.108171",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "marino2022j15",
+    "title": "Deep neural networks compression: A comparative survey and choice recommendations",
+    "authors": [
+      "Giosuè Cataldo Marinò",
+      "Alessandro Petrini",
+      "Dario Malchiodi",
+      "Marco Frasca"
+    ],
+    "year": 2022,
+    "venue": "Neurocomputing",
+    "url": "https://doi.org/10.1016/j.neucom.2022.11.072",
+    "doi": "10.1016/j.neucom.2022.11.072",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "yang2023j16",
+    "title": "Explanation Guided Knowledge Distillation for Pre-trained Language Model Compression",
+    "authors": [
+      "Zhao Yang",
+      "Yuanzhe Zhang",
+      "Dianbo Sui",
+      "Yiming Ju",
+      "Jun Zhao",
+      "Kang Liu"
+    ],
+    "year": 2023,
+    "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "url": "https://doi.org/10.1145/3639364",
+    "doi": "10.1145/3639364",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "ding2023j17",
+    "title": "Parameter-efficient fine-tuning of large-scale pre-trained language models",
+    "authors": [
+      "Ning Ding",
+      "Yujia Qin",
+      "Guang Yang",
+      "Fuchao Wei",
+      "Zonghan Yang",
+      "Yusheng Su",
+      "Shengding Hu",
+      "Yulin Chen",
+      "Chi-Min Chan",
+      "Weize Chen",
+      "Jing Yi",
+      "Weilin Zhao",
+      "Xiaozhi Wang",
+      "Zhiyuan Liu",
+      "Hai-Tao Zheng",
+      "Jianfei Chen",
+      "Yang Liu",
+      "Jie Tang",
+      "Juanzi Li",
+      "Maosong Sun"
+    ],
+    "year": 2023,
+    "venue": "Nature Machine Intelligence",
+    "url": "https://doi.org/10.1038/s42256-023-00626-4",
+    "doi": "10.1038/s42256-023-00626-4",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "solgi2023j18",
+    "title": "Tensor shape search for efficient compression of tensorized data and neural networks",
+    "authors": [
+      "Ryan Solgi",
+      "Zichang He",
+      "William Jiahua Liang",
+      "Zheng Zhang",
+      "Hugo A. Loáiciga"
+    ],
+    "year": 2023,
+    "venue": "Applied Soft Computing",
+    "url": "https://doi.org/10.1016/j.asoc.2023.110987",
+    "doi": "10.1016/j.asoc.2023.110987",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "huang2023j19",
+    "title": "Uncertainty-Driven Knowledge Distillation for Language Model Compression",
+    "authors": [
+      "Tianyu Huang",
+      "Weisheng Dong",
+      "Fangfang Wu",
+      "Xin Li",
+      "Guangming Shi"
+    ],
+    "year": 2023,
+    "venue": "IEEE/ACM Transactions on Audio Speech and Language Processing",
+    "url": "https://doi.org/10.1109/taslp.2023.3289303",
+    "doi": "10.1109/taslp.2023.3289303",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "zhu2024j20",
+    "title": "A Survey on Model Compression for Large Language Models",
+    "authors": [
+      "Xunyu Zhu",
+      "Jian Li",
+      "Yong Liu",
+      "Can Ma",
+      "Weiping Wang"
+    ],
+    "year": 2024,
+    "venue": "Transactions of the Association for Computational Linguistics",
+    "url": "https://doi.org/10.1162/tacl_a_00704",
+    "doi": "10.1162/tacl_a_00704",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "mao2024j21",
+    "title": "A survey on LoRA of large language models",
+    "authors": [
+      "Yuren Mao",
+      "Yuhang Ge",
+      "Yijiang Fan",
+      "Wenyi Xu",
+      "Yu Mi",
+      "Zhonghao Hu",
+      "Yunjun Gao"
+    ],
+    "year": 2024,
+    "venue": "Frontiers of Computer Science",
+    "url": "https://doi.org/10.1007/s11704-024-40663-9",
+    "doi": "10.1007/s11704-024-40663-9",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "pham2024j22",
+    "title": "Enhanced Network Compression Through Tensor Decompositions and Pruning",
+    "authors": [
+      "Van Tien Pham",
+      "Yassine Zniyed",
+      "Thanh Phương Nguyễn"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "url": "https://doi.org/10.1109/tnnls.2024.3370294",
+    "doi": "10.1109/tnnls.2024.3370294",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "xie2024j23",
+    "title": "Neural Network Compression Based on Tensor Ring Decomposition",
+    "authors": [
+      "Kun Xie",
+      "Can Liu",
+      "Xin Wang",
+      "Xiaocan Li",
+      "Gaogang Xie",
+      "Jigang Wen",
+      "Kenli Li"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "url": "https://doi.org/10.1109/tnnls.2024.3383392",
+    "doi": "10.1109/tnnls.2024.3383392",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "cherniuk2024j24",
+    "title": "Quantization Aware Factorization for Deep Neural Network Compression",
+    "authors": [
+      "Daria Cherniuk",
+      "Stanislav Abukhovich",
+      "Anh Huy Phan",
+      "Ivan Valer'evich Oseledets",
+      "Andrzej S Cichocki",
+      "Julia Gusak"
+    ],
+    "year": 2024,
+    "venue": "Journal of Artificial Intelligence Research",
+    "url": "https://doi.org/10.1613/jair.1.16167",
+    "doi": "10.1613/jair.1.16167",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "zhang2025j25",
+    "title": "Theoretical guarantees for low-rank compression of deep neural networks",
+    "authors": [
+      "Shihao Zhang",
+      "Rayan Saab"
+    ],
+    "year": 2025,
+    "venue": "Applied and Computational Harmonic Analysis",
+    "url": "https://doi.org/10.1016/j.acha.2025.101837",
+    "doi": "10.1016/j.acha.2025.101837",
+    "kind": "journal",
+    "verification": "OpenAlex DOI+journal metadata; abstract inspected when present; full text not uniformly inspected"
+  },
+  {
+    "key": "solgi2025saten",
+    "title": "Saten: Sparse Augmented Tensor Networks for Post-Training Compression of Large Language Models",
+    "authors": [
+      "Ryan Solgi",
+      "Kai Zhen",
+      "Rupak Vignesh Swaminathan",
+      "Nathan Susanj",
+      "Athanasios Mouchtaris",
+      "Siegfried Kunzmann",
+      "Zheng Zhang"
+    ],
+    "year": 2025,
+    "venue": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "url": "https://aclanthology.org/2025.findings-emnlp.1287/",
+    "doi": "10.18653/v1/2025.findings-emnlp.1287",
+    "kind": "conference",
+    "verification": "Primary publisher/proceedings/arXiv record checked; local source register used where applicable"
+  },
+  {
+    "key": "pletenev2024fisher",
+    "title": "Transformers Compression: A Study of Matrix Decomposition Methods Using Fisher Information",
+    "authors": [
+      "Sergey Pletenev",
+      "Daniil Moskovskiy",
+      "Viktoriia Chekalina",
+      "Mikhail Seleznyov",
+      "Sergey Zagoruyko",
+      "Alexander Panchenko"
+    ],
+    "year": 2024,
+    "venue": "Analysis of Images, Social Networks and Texts (Lecture Notes in Computer Science)",
+    "url": "https://doi.org/10.1007/978-3-031-54534-4_3",
+    "doi": "10.1007/978-3-031-54534-4_3",
+    "kind": "conference",
+    "verification": "Primary publisher/proceedings/arXiv record checked; local source register used where applicable"
+  },
+  {
+    "key": "wang2025svdllm",
+    "title": "SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression",
+    "authors": [
+      "Xin Wang",
+      "Yu Zheng",
+      "Zhongwei Wan",
+      "Mi Zhang"
+    ],
+    "year": 2025,
+    "venue": "International Conference on Learning Representations",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/3104e1ab39875cf54fe1eb4473e7c5a1-Abstract-Conference.html",
+    "doi": "",
+    "kind": "conference",
+    "verification": "Primary publisher/proceedings/arXiv record checked; local source register used where applicable"
+  },
+  {
+    "key": "parkina2025coala",
+    "title": "COALA: Numerically Stable and Efficient Framework for Context-Aware Low-Rank Approximation",
+    "authors": [
+      "Uliana Parkina",
+      "Maxim Rakhuba"
+    ],
+    "year": 2025,
+    "venue": "Advances in Neural Information Processing Systems 38",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/67022e6927b7887ef56f57d87d42ca84-Abstract-Conference.html",
+    "doi": "",
+    "kind": "conference",
+    "verification": "Primary publisher/proceedings/arXiv record checked; local source register used where applicable"
+  },
+  {
+    "key": "beatini2026awt",
+    "title": "Activation-Aware Weight Tensorization: A Calibration-Time Preconditioner for Tensor-Network LLM Compression",
+    "authors": [
+      "Alessandro Beatini",
+      "Marco Maronese",
+      "Emanuele Rodola"
+    ],
+    "year": 2026,
+    "venue": "arXiv:2610.10085v1",
+    "url": "https://arxiv.org/abs/2610.10085v1",
+    "doi": "",
+    "kind": "preprint",
+    "verification": "Primary publisher/proceedings/arXiv record checked; local source register used where applicable"
+  }
+]

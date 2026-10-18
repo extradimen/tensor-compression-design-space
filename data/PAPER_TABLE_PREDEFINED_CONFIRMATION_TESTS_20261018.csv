@@ -1,0 +1,15 @@
+protocol,contrast,domain,prespecified_test,fixed_condition,paired_mean_nll_delta,predicted_direction,one_sided_cluster_bootstrap_bound,bound_level,source_clusters,passes_predefined_direction
+86,Step5_alt_minus_sem,text,D,task/factors,-0.6914288469495626,negative,-0.6443185149334612,0.9875_one_sided,32,True
+86,Step5_alt_minus_sem,text,C,task/factors,0.5759906471183043,positive,0.5391805923765897,0.9875_one_sided,32,True
+86,Step5_alt_minus_sem,math,D,task/factors,-0.7751635260714558,negative,-0.7316104497398298,0.9875_one_sided,128,True
+86,Step5_alt_minus_sem,math,C,task/factors,1.1814157274195014,positive,1.1395145065434826,0.9875_one_sided,128,True
+87,initial_MPO_minus_matrix,text,OW_none,exchange2,-2.5646078749994334,negative,-2.0774816018491142,0.995_one_sided,32,True
+87,initial_MPO_minus_matrix,text,OD_none,exchange2,3.6044989612850924,positive,3.2756107571193893,0.995_one_sided,32,True
+87,initial_MPO_minus_matrix,text,OC_none,exchange2,1.4669108887263351,positive,1.3630962165077012,0.995_one_sided,32,True
+87,initial_MPO_minus_matrix,text,OD_repair_attenuation,exchange2,-3.2416970083124927,negative,-2.8619706235227644,0.995_one_sided,32,True
+87,initial_MPO_minus_matrix,text,OC_repair_attenuation,exchange2,-0.8231059334574155,negative,-0.7391922688049305,0.995_one_sided,32,True
+87,initial_MPO_minus_matrix,math,OW_none,exchange2,-0.6982703874663801,negative,-0.1311758136127505,0.995_one_sided,128,True
+87,initial_MPO_minus_matrix,math,OD_none,exchange2,4.081788116576764,positive,3.869675102871033,0.995_one_sided,128,True
+87,initial_MPO_minus_matrix,math,OC_none,exchange2,1.2762970310911088,positive,1.2148319380587476,0.995_one_sided,128,True
+87,initial_MPO_minus_matrix,math,OD_repair_attenuation,exchange2,-4.115926901506763,negative,-3.9011218295178014,0.995_one_sided,128,True
+87,initial_MPO_minus_matrix,math,OC_repair_attenuation,exchange2,-0.7828724987263913,negative,-0.7297847901217532,0.995_one_sided,128,True
